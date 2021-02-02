@@ -1,0 +1,9 @@
+Sub Workbook_Protect()
+Dim MySh As Worksheet
+Set MySh = Sheets("WLK")
+MySh.Unprotect
+Worksheets("WLK").Columns("A:P").AutoFit
+MySh.Cells.Locked = False
+MySh.Range("A2:N60000").Locked = True
+MySh.Protect
+End Sub

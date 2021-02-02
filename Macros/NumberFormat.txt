@@ -1,0 +1,6 @@
+Sub Main()
+Sheets("WLK").Select
+ActiveSheet.Columns("J").NumberFormat = "#,##0"
+ActiveSheet.Columns("K").NumberFormat = "#,##0"
+ActiveSheet.Columns("L").NumberFormat = "#,##0"
+End Sub

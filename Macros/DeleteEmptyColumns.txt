@@ -1,0 +1,11 @@
+Sub Delete_Columns()
+Dim C As Integer
+Worksheets("WHS").Activate
+C = ActiveSheet.Cells.SpecialCells(xlLastCell).Column
+Do Until C = 0
+If WorksheetFunction.CountA(Columns(C)) = 1 Or WorksheetFunction.CountA(Columns(C)) = 0 Then
+Columns(C).Delete
+End If
+C = C - 1
+Loop
+End Sub

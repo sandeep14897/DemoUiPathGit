@@ -1,0 +1,12 @@
+<p>SCCH - PASSED</p>
+<p>TXFB - PASSED</p>
+<p>TXFL - PASSED</p>
+<p>TXP2 - PASSED</p>
+<p>TXP4 - PASSED</p>
+<p>TXP7 - PASSED</p>
+<p>SCCH - PASSED</p>
+<p>TXFB - PASSED</p>
+<p>TXFL - PASSED</p>
+<p>TXP2 - PASSED</p>
+<p>TXP4 - PASSED</p>
+<p>TXP7 - PASSED</p>

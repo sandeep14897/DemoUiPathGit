@@ -1,0 +1,3 @@
+Sub ClearSheet()
+Sheets("WHS").Cells.Clear
+End Sub
